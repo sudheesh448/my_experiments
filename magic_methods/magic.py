@@ -1,5 +1,18 @@
 import time
 
+
+
+
+"""
+Magic methods (also known as dunder methods, 
+short for Double Underscore) are special, 
+pre-defined methods in Python that have double underscores at the beginning and the end of their names—like __init__ or __add__.
+
+They are called "Magic" because you don't usually call them manually. Instead, 
+Python triggers them automatically when you perform a specific action on an object.
+"""
+
+
 class Playlist:
     def __init__(self,songs):
         self.songs = songs
