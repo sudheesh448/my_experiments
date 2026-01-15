@@ -17,4 +17,6 @@ print(my_array)
 """
 After completing the 1st iteration of j loop the larger number will be in righ most place. 
 so in next loop we dont want to look in to that place thats why n-i-1
+
+complexity o(n^2)
 """
