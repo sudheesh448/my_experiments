@@ -19,3 +19,6 @@ def quick_sort(arr):
     return quick_sort(left) + [pivot] + quick_sort(right)
 
 print(quick_sort(my_array))
+
+text = ["quicksort","sdfgsdgsdg","afsadfe"]
+print(quick_sort(text))
